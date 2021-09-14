@@ -14,10 +14,10 @@ The application is structured by features along with unit test cases.
 - The articles has it's detail page along with the test cases structured in a similar manner.
 
 ### Usage of frameworks
-- react-navigation-v3 which is extremely popular solution for navigating between screens
-- react-native-webview starting v0.60 of react native webview has been moved outside to react native community
-- react-native-vector-icons which simplifies using icons which a variety of icon collection
-- jest, enzyme and react-dom to facilitate unit testing
+- React-navigation-v3 which is extremely popular solution for navigating between screens
+- React-native-webview starting v0.60 of react native webview has been moved outside to react native community
+- React-native-vector-icons which simplifies using icons which a variety of icon collection
+- Jest, enzyme and react-dom to facilitate unit testing
 
 ### Getting started
 Clone or download the repository, cd to the folder and follow the below steps 
