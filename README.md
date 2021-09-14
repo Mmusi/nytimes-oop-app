@@ -23,9 +23,6 @@ The application is structured by features along with unit test cases.
 Clone or download the repository, cd to the folder and follow the below steps 
 ```
 $ npm install 
-$ react-native link
-$ react-native run-ios
-$ react-native run-android
 ```
 Read more about linking libraries manually here [Linking iOS](https://facebook.github.io/react-native/docs/linking-libraries-ios)
 
