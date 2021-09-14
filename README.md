@@ -3,9 +3,9 @@
 
 
 
-## Features / Components
-- Uses `React 16.8.3`
-- Uses `React Native 0.59.8`
+## Features
+- Uses `React 16.0.0 and latest`
+- Uses `React Native 0.59.8 0 and latest`
 - Displays most popular articles from NY Times
 
 ## Development
@@ -43,8 +43,7 @@ Run `npm test` to execute these tests. This will generate a `coverage report` un
 
 
 ### Unit Test Coverage Report
-![Coverage](assets/screenshots/codecoverage.png)
-![Coverage Report](assets/screenshots/codecoveragereport.png)
+
 
 
 ## Author
