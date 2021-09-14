@@ -50,4 +50,4 @@ Run `npm test` to execute these tests. This will generate a `coverage report` un
 
 
 ## Author
-- [@rishabhbhatia](https://github.com/rishabhbhatia)
+- [Thato Mmusi](https://github.com/)
