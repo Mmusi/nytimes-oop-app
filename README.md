@@ -1,8 +1,5 @@
-# NYTimes Most Popular
-[The New York Times](http://nytimes.com) reader mobile app, made with [React Native](https://facebook.github.io/react-native/).
-
-<img src="assets/screenshots/LandingPage.png" alt="LandingScreenLoadingState" width="200"/>
-<img src="assets/screenshots/ArticleDetailsScreen.png" alt="ArticleDetailsScreen" width="200"/>
+# New York Times Most Popular
+[The New York Times](http://nytimes.com) reader mobile app, made with [React Native].
 
 ## Features / Components
 - Uses `React 16.8.3`
@@ -12,9 +9,9 @@
 ## Development
 
 ### Folder structure
-Application is structured by features along with their unit test cases. 
-- Articles have a listing page which contains each listing cell item component and it's unit test cases
-- Articles has it's detail page along with the test cases structured in a similar manner
+The application is structured by features along with unit test cases. 
+- The articles have a listing page which contains each listing cell item component and it's unit test cases
+- The articles has it's detail page along with the test cases structured in a similar manner.
 
 ### Usage of frameworks
 - react-navigation-v3 which is extremely popular solution for navigating between screens
