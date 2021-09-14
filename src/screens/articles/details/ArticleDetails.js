@@ -9,12 +9,10 @@ import styles from "./styles";
 import { TEST_ID_ARTICLE_DETAILS_SCREEN_WEBVIEW } from "../../../utils/constants/testIds";
 
 /* -------------------------------------------------------------------------- */
-/*                 This is the screen to display details of an article                    */
+/*                 Screen to display details of an article                    */
 /* -------------------------------------------------------------------------- */
-
 export default class ArticleDetails extends React.PureComponent {
-
-  /* ------------------------ Header properties ------------------------ */
+  /* ------------------------ custom header properties ------------------------ */
   static navigationOptions = {
     title: "Article Details",
     headerStyle: {
@@ -35,20 +33,20 @@ export default class ArticleDetails extends React.PureComponent {
     this.setArticleUrlInState(articleUrl);
   }
 
-  /* --------------- Returns article url passed from navigation --------------- */
+  /* --------------- returns article url passed from navigation --------------- */
   getArticleUrlFromProps = () => {
     const { navigation } = this.props;
     return navigation.getParam("articleUrl", "");
   }
 
-  /* --------------- This updates the state with value of article url -------------- */
+  /* --------------- updates the state with value of article url -------------- */
   setArticleUrlInState = (articleUrl) => {
     this.setState({
       articleUrl,
     });
   }
 
-  /* ------------------- This is displayed while article is loading ------------------- */
+  /* ------------------- displayed while article is loading ------------------- */
   renderLoading = () => (
     <View style={styles.container}>
       <ActivityIndicator size="large" />

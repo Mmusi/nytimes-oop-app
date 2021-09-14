@@ -1,5 +1,8 @@
-# New York Times Most Popular
-[The New York Times](http://nytimes.com) reader mobile app, made with [React Native].
+# NYTimes Most Popular
+[The New York Times](http://nytimes.com) reader mobile app, made with [React Native](https://facebook.github.io/react-native/).
+
+<img src="assets/screenshots/LandingPage.png" alt="LandingScreenLoadingState" width="200"/>
+<img src="assets/screenshots/ArticleDetailsScreen.png" alt="ArticleDetailsScreen" width="200"/>
 
 ## Features / Components
 - Uses `React 16.8.3`
@@ -9,20 +12,25 @@
 ## Development
 
 ### Folder structure
-The application is structured by features along with unit test cases. 
+This application is structured by features along with their unit test cases. 
 - The articles have a listing page which contains each listing cell item component and it's unit test cases
 - The articles has it's detail page along with the test cases structured in a similar manner.
 
 ### Usage of frameworks
-- React-navigation-v3 which is extremely popular solution for navigating between screens
-- React-native-vector-icons which simplifies using icons which a variety of icon collection
-- Jest, enzyme and react-dom to facilitate unit testing
+- The React-navigation-v3 which is extremely popular solution for navigating between screens
+- The React-native-webview starting v0.60 of react native webview has been moved outside to react native community
+- The React-native-vector-icons which simplifies using icons which a variety of icon collection
+- The jest, enzyme and react-dom to facilitate unit testing
 
 ### Getting started
 Clone or download the repository, cd to the folder and follow the below steps 
 ```
 $ npm install 
+$ react-native link
+$ react-native run-ios
+$ react-native run-android
 ```
+Read more about linking libraries manually here [Linking iOS](https://facebook.github.io/react-native/docs/linking-libraries-ios)
 
 ### Scripts
 - `$ npm start` - Starts the react native package manager
@@ -30,9 +38,17 @@ $ npm install
 - `$ npm run lint` - Lints the code using ESLint with the popular airbnb config
 
 ## Testing
-The project currently contains unit-tests for the components, at same path with name suffixed `.test.js`.
+This project contains unit-tests for the components, at same path with name suffixed `.test.js`.
 
 Run `npm test` to execute these tests. This will generate a `coverage report` under coverage folder. To view this report open coverage -> lcov-report and click on `index.html`.
 
+
+### Unit Test Coverage Report
+![Coverage](assets/screenshots/codecoverage.png)
+![Coverage Report](assets/screenshots/codecoveragereport.png)
+
+
 ## Author
-- [Thato Mmusi](https://github.com/)
+- [@Thato Mmusi](https://github.com/Mmusi)
+- http://mmusi-thato.herokuapp.com/
+- https://bw.linkedin.com/in/thato-mmusi-13940b5b
