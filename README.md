@@ -24,7 +24,6 @@ Clone or download the repository, cd to the folder and follow the below steps
 ```
 $ npm install 
 ```
-Read more about linking libraries manually here [Linking iOS](https://facebook.github.io/react-native/docs/linking-libraries-ios)
 
 ### Scripts
 - `$ npm start` - Starts the react native package manager
@@ -35,13 +34,6 @@ Read more about linking libraries manually here [Linking iOS](https://facebook.g
 The project currently contains unit-tests for the components, at same path with name suffixed `.test.js`.
 
 Run `npm test` to execute these tests. This will generate a `coverage report` under coverage folder. To view this report open coverage -> lcov-report and click on `index.html`.
-
-
-### Unit Test Coverage Report
-![Coverage](assets/screenshots/codecoverage.png)
-
-![Coverage Report](assets/screenshots/codecoveragereport.png)
-
 
 ## Author
 - [Thato Mmusi](https://github.com/)
