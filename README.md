@@ -1,8 +1,7 @@
 # NYTimes Most Popular
 [The New York Times](http://nytimes.com) reader mobile app, made with [React Native](https://facebook.github.io/react-native/).
 
-<img src="assets/screenshots/LandingPage.png" alt="LandingScreenLoadingState" width="200"/>
-<img src="assets/screenshots/ArticleDetailsScreen.png" alt="ArticleDetailsScreen" width="200"/>
+
 
 ## Features / Components
 - Uses `React 16.8.3`
