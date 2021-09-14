@@ -15,7 +15,6 @@ The application is structured by features along with unit test cases.
 
 ### Usage of frameworks
 - React-navigation-v3 which is extremely popular solution for navigating between screens
-- React-native-webview starting v0.60 of react native webview has been moved outside to react native community
 - React-native-vector-icons which simplifies using icons which a variety of icon collection
 - Jest, enzyme and react-dom to facilitate unit testing
 
